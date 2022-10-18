@@ -1,0 +1,39 @@
+.section__form {
+    border-radius: 25px;
+    padding: 50px;
+    background-color: rgba(250, 235, 215, 0.664);
+    box-shadow: 2px 2px 8px #666;
+}
+
+.section__fieldset {
+    border: 1px solid teal;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 8px #666;
+    background-color: aliceblue;
+}
+
+.section__legend {
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    background-color: teal;
+    box-shadow: 2px 2px 8px #666;
+
+}
+
+.section__input {
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 8px #666;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.section__paragraph {
+    margin: 5px auto;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius:30px;
+}

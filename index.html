@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Kalkulator Walutowy</title>
+</head>
+
+<body class="body">
+
+    <header class="header">
+
+        <h1 class="header__title">Kalkulator<span class="material-icons header__span">
+            currency_exchange
+        </span>Walutowy</h1>
+        <p class="header__subTitle"> Stan na dzień 10.10.2022 r. godz. 22:00</p>
+    </header>
+
+    <section class="section">
+        <p class="section__paragraph js-eurValue"></p>
+        <form class="section__form">
+            <fieldset class="section__fieldset">
+                <legend class="section__legend">PLN » €</legend>
+                <label>
+                    <input class="section__input js-plnToEur_pln" type="number" placeholder="PLN" step="0.1">
+                </label>
+                <label>
+                    <input class="section__input js-plnToEur_eur" type="number" placeholder="EUR" disabled>
+                </label>
+            </fieldset>
+            <fieldset class="section__fieldset">
+                <legend class="section__legend">€ » PLN</legend>
+                <label>
+                    <input class="section__input js-eurToPln_eur" type="number" placeholder="EUR" step="0.1">
+                </label>
+                <label>
+                    <input class="section__input js-eurToPln_pln" type="number" placeholder="PLN" disabled>
+                </label>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+
+</html>
