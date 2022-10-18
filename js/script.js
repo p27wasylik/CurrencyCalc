@@ -28,7 +28,7 @@
         eurToPlnResult.value = reverseCurrencyCalc(eurToPlnAmount);
     })
 
-    let currentEur = document.querySelector(".js-eurValue");
+    const currentEur = document.querySelector(".js-eurValue");
 
     currentEur.innerText = `1€ » ${eurValue} PLN`;
 
