@@ -1,5 +1,5 @@
 {
-    let plnToEurAmount = document.querySelector(".js-plnToEur_pln");
+    const plnToEurAmount = document.querySelector(".js-plnToEur_pln");
     const plnToEurResult = document.querySelector(".js-plnToEur_eur");
 
     const eurToPlnAmount = document.querySelector(".js-eurToPln_eur");
