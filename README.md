@@ -1,6 +1,6 @@
 # Currency Calculator
 ## Demo
-[HomePage](https://p27wasylik.github.io/CurrencyCalc/)
+[Currency Calculator](https://p27wasylik.github.io/CurrencyCalc/)
 
 ### Structur based on
 
@@ -13,6 +13,6 @@
 
 The website is created for training purposes based on the "YouCode" course
 
-> **Note** The course is available on their official webside [Youcode](https://yyoucode.pl)
+> **Note** The course is available on their official webside [Youcode](https://youcode.pl)
 
 Purpose of this website is lern how to code with JavaScript.
